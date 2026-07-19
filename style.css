@@ -10,7 +10,7 @@ img{
 }
 
 .hero-image{
-    background-image: url("./Hero-Image.png") ;
+    background-image: url("/Hero-Image.png") ;
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
