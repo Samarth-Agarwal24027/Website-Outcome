@@ -1,5 +1,10 @@
 /* style.css */
 
+body{
+    margin: 0;
+}
+
+
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -9,10 +14,58 @@ img{
     border-radius: 5px;
 }
 
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+
 .hero-image{
-    background-image: url("/Hero-Image.png") ;
+    background-image: url("./Hero-Image2.png") ;
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-text{
+    color: whitesmoke;
+    position:absolute;
+    text-align: center;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+}
+
+.info{
+    font-size: 1em;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 80%;
+    margin: 40px auto 50px;
+    align-items: stretch;
+}
+
+.card{
+    background-color: rgb(140, 1, 20);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }
