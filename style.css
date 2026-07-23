@@ -69,3 +69,46 @@ img{
     margin: auto;
     margin-top: 40px;
 }
+.build-section{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.build-section h2{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.build-section h3{
+    margin-top:25px;
+    margin-bottom:8px;
+    color:rgb(140,1,20);
+}
+
+.build-section p{
+    color:#555;
+    line-height:1.6;
+}
+
+.build-section img{
+    height:100%;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.section-title{
+    width:80%;
+    margin:60px auto 20px;
+    text-align:center;
+}
+
+.section-title h2{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+.section-title p{
+    color:#555;
+    font-size:1.05rem;
+    line-height:1.6;
+}
