@@ -94,6 +94,64 @@ img{
     border:2px solid white;
 }
 
+/* About Section */
+
+.about-section{
+    width:80%;
+    margin:70px auto;
+    text-align:center;
+}
+
+.about-section h2{
+    font-size:2.3rem;
+    color:rgb(47, 140, 1);
+    margin-bottom:20px;
+}
+
+.about-section p{
+    width:75%;
+    margin:15px auto;
+    color:#555;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+.about-intro{
+    width:75%;
+    margin:20px auto 40px;
+    line-height:1.8;
+    color:#555;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.about-card{
+    background:#f8f8f8;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:transform 0.3s ease;
+}
+
+.about-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 22px rgba(0,0,0,0.18);
+}
+
+.about-card h3{
+    color:rgb(47,140,1);
+    margin-top:0;
+}
+
+.about-card p{
+    width:100%;
+    margin:15px 0 0;
+}
+
 .info{
     font-size: 1em;
 }
@@ -207,6 +265,61 @@ img{
     line-height:1.6;
 }
 
+/* Budget Section */
+
+.budget-section{
+    width:80%;
+    margin:80px auto;
+    text-align:center;
+}
+
+.budget-section h2{
+    font-size:2.2rem;
+    color:rgb(47,140,1);
+}
+
+.budget-intro{
+    width:75%;
+    margin:20px auto 45px;
+    line-height:1.7;
+    color:#555;
+}
+
+.budget-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.budget-card{
+    background:white;
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.budget-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 22px rgba(0,0,0,0.18);
+}
+
+.budget-card h3{
+    color:rgb(47,140,1);
+    margin-bottom:5px;
+}
+
+.budget-card h4{
+    color:#666;
+    margin-bottom:20px;
+}
+
+.budget-card ul{
+    text-align:left;
+    line-height:1.8;
+    padding-left:20px;
+}
+
 .section-title{
     width:80%;
     margin:60px auto 20px;
@@ -263,4 +376,14 @@ footer p{
 .step-card p{
     color:#555;
     line-height:1.6;
+}
+
+.budget-note{
+    width:80%;
+    margin:35px auto 0;
+    text-align:center;
+    color:#555;
+    font-size:1rem;
+    font-style:italic;
+    line-height:1.7;
 }
