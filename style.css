@@ -63,12 +63,26 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+}
+
+.hero-image::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.35);
 }
 
 .hero-text{
     color: whitesmoke;
     text-align: center;
     width: 70%;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-text h1{
@@ -136,7 +150,7 @@ img{
 }
 
 .about-card{
-    background:#f8f8f8;
+    background:#F7FBF5;
     padding:30px;
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
@@ -180,6 +194,10 @@ img{
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding-bottom: 15px;
+}
+
+.card:nth-child(even){
+    background:#1F4E79;
 }
 
 .card:hover{
@@ -241,6 +259,9 @@ img{
     width:80%;
     margin:70px auto;
     text-align:center;
+    background:#F8FAFC;
+    padding:50px;
+    border-radius:12px;
 }
 
 .features h2{
@@ -390,6 +411,7 @@ footer p{
 
 .step-card{
     background:#f4f4f4;
+    border-top:5px solid #2F8C01;
     padding:25px;
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
