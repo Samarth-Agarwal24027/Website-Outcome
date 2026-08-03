@@ -1,4 +1,8 @@
 /* style.css */
+html{
+    scroll-behavior:smooth;
+}
+
 nav{
     position:sticky;
     top:0;
@@ -11,6 +15,7 @@ nav{
     align-items:center;
     padding:15px 10%;
     background:white;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
 nav h2{
@@ -23,10 +28,11 @@ nav a{
     color:rgb(47, 140, 1);
     margin-left:25px;
     font-weight:bold;
+    transition:0.3s;
 }
 
 nav a:hover{
-    text-decoration:underline;
+    color:#1F4E79;
 }
 
 body{
@@ -172,8 +178,13 @@ img{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding-bottom: 15px;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
 }
 
 .card-text{
@@ -205,8 +216,8 @@ img{
 }
 
 .build-section h2{
-    font-size:2rem;
-    margin-bottom:20px;
+    font-size:2.2rem;
+    color:rgb(47,140,1);
 }
 
 .build-section h3{
@@ -233,8 +244,8 @@ img{
 }
 
 .features h2{
-    font-size:2rem;
-    margin-bottom:40px;
+    font-size:2.2rem;
+    color:rgb(47,140,1);
 }
 
 .features-grid{
@@ -244,7 +255,7 @@ img{
 }
 
 .feature-card{
-    background:#f8f8f8;
+    background:#EEF5FF;
     padding:30px;
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
@@ -256,7 +267,7 @@ img{
 }
 
 .feature-card h3{
-    color:rgb(47, 140, 1);
+    color:#1F4E79;
     margin-top:0;
 }
 
@@ -293,6 +304,7 @@ img{
 
 .budget-card{
     background:white;
+    border-top:5px solid rgb(140, 68, 1);
     border-radius:12px;
     padding:30px;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
@@ -338,11 +350,11 @@ img{
 }
 
 footer{
-    background-color: rgb(47, 140, 1);
-    color: white;
-    text-align: center;
-    padding: 25px;
-    margin-top: 60px;
+    background:#1F2937;
+    color:white;
+    text-align:center;
+    padding:35px;
+    margin-top:70px;
 }
 
 footer p{
@@ -352,6 +364,21 @@ footer p{
 .build-steps{
     width:80%;
     margin:70px auto;
+}
+
+.build-steps h2{
+    text-align:center;
+    font-size:2.2rem;
+    color:rgb(47,140,1);
+    margin-bottom:15px;
+}
+
+.steps-intro{
+    width:75%;
+    margin:0 auto 40px;
+    text-align:center;
+    color:#555;
+    line-height:1.7;
 }
 
 .steps-grid{
@@ -366,6 +393,12 @@ footer p{
     padding:25px;
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 22px rgba(0,0,0,0.18);
 }
 
 .step-card h3{
