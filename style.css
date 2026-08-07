@@ -49,8 +49,9 @@ img{
 }
 
 .card img{
-    height: 250px;
-    object-fit: cover;
+    height:250px;
+    object-fit:contain;
+    background:white;
 }
 
 .hero-image{
@@ -202,8 +203,8 @@ img{
 }
 
 .card:hover{
-    transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.18);
+    transform:translateY(-4px);
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
 }
 
 .card-text{
@@ -212,8 +213,8 @@ img{
     padding: 0 12px;
 }
 
-.card h2{
-    font-size: 1.3rem;
+.card h3{
+    font-size:1.3rem;
 }
 
 .card p{
@@ -327,7 +328,7 @@ img{
 
 .budget-card{
     background:white;
-    border-top:5px solid rgb(140, 68, 1);
+    border-top:5px solid #1F4E79;
     border-radius:12px;
     padding:30px;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
@@ -370,6 +371,28 @@ img{
     color:#555;
     font-size:1.05rem;
     line-height:1.6;
+}
+
+.intro{
+    width:80%;
+    margin:60px auto 40px;
+    text-align:center;
+    background:#F8FAFC;
+    padding:40px;
+    border-radius:12px;
+}
+
+.intro h2{
+    font-size:2.2rem;
+    color:rgb(47,140,1);
+}
+
+.intro p{
+    width:75%;
+    margin:20px auto;
+    color:#555;
+    line-height:1.7;
+    font-size:1.05rem;
 }
 
 footer{
@@ -418,6 +441,7 @@ footer p{
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
     transition:transform 0.3s ease, box-shadow 0.3s ease;
+    min-height:150px;
 }
 
 .step-card:hover{
@@ -443,4 +467,52 @@ footer p{
     font-size:1rem;
     font-style:italic;
     line-height:1.7;
+}
+
+.component-details{
+    width:80%;
+    margin:70px auto;
+}
+
+.component-details h2{
+    text-align:center;
+    color:rgb(47,140,1);
+    font-size:2.2rem;
+    margin-bottom:40px;
+}
+
+.component-info{
+    background:white;
+    border-left:6px solid rgb(47,140,1);
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.component-info h3{
+    margin-top:0;
+    color:#1F4E79;
+}
+
+.component-info p{
+    color:#555;
+    line-height:1.7;
+}
+
+@media(max-width:900px){
+    .three-column,
+    .features-grid,
+    .budget-grid,
+    .steps-grid,
+    .about-grid{
+        grid-template-columns:1fr;
+    }
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+    .hero-text h1{
+        font-size:2.5rem;
+    }
 }
