@@ -37,6 +37,7 @@ nav a:hover{
 
 body{
     margin: 0;
+    background:#172554;
 }
 
 * {
@@ -221,6 +222,31 @@ img{
     line-height: 1.6;
 }
 
+.card h3{
+    font-size:1.3rem;
+}
+
+.card p{
+    line-height: 1.6;
+}
+
+.learn-more{
+    display:inline-block;
+    margin:10px auto 5px;
+    padding:10px 20px;
+    background:#E67E22;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:20px;
+    transition:0.3s;
+}
+
+.learn-more:hover{
+    background:#C95F0A;
+    transform:translateY(-3px);
+}
+
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -360,6 +386,9 @@ img{
     width:80%;
     margin:60px auto 20px;
     text-align:center;
+    background:white;
+    padding:30px;
+    border-radius:12px;
 }
 
 .section-title h2{
@@ -368,7 +397,7 @@ img{
 }
 
 .section-title p{
-    color:#555;
+    color:#E5E7EB;
     font-size:1.05rem;
     line-height:1.6;
 }
