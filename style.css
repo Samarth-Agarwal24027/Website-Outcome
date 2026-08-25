@@ -127,7 +127,7 @@ img{
 
 .about-section h2{
     font-size:2.3rem;
-    color:#F8FAFC;
+    color:rgb(47,140,1);
     margin-bottom:20px;
 }
 
@@ -343,7 +343,7 @@ img{
     width:75%;
     margin:20px auto 45px;
     line-height:1.7;
-    color:#555;
+    color:#E5E7EB;
 }
 
 .budget-grid{
@@ -397,7 +397,7 @@ img{
 }
 
 .section-title p{
-    color:#E5E7EB;
+    color:#555;
     font-size:1.05rem;
     line-height:1.6;
 }
