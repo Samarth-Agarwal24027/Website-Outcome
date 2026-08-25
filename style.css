@@ -127,7 +127,7 @@ img{
 
 .about-section h2{
     font-size:2.3rem;
-    color:rgb(47, 140, 1);
+    color:#F8FAFC;
     margin-bottom:20px;
 }
 
@@ -336,7 +336,7 @@ img{
 
 .budget-section h2{
     font-size:2.2rem;
-    color:rgb(47,140,1);
+    color:#F8FAFC;
 }
 
 .budget-intro{
@@ -444,7 +444,7 @@ footer p{
 .build-steps h2{
     text-align:center;
     font-size:2.2rem;
-    color:rgb(47,140,1);
+    color:#F8FAFC;
     margin-bottom:15px;
 }
 
@@ -452,7 +452,7 @@ footer p{
     width:75%;
     margin:0 auto 40px;
     text-align:center;
-    color:#555;
+    color:#E5E7EB;
     line-height:1.7;
 }
 
@@ -505,7 +505,7 @@ footer p{
 
 .component-details h2{
     text-align:center;
-    color:rgb(47,140,1);
+    color:#F8FAFC;
     font-size:2.2rem;
     margin-bottom:40px;
 }
