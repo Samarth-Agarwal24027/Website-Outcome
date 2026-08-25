@@ -166,13 +166,17 @@ img{
 }
 
 .about-card h3{
-    color:rgb(47,140,1);
+    color:#1F4E79;
     margin-top:0;
+    font-size:1.3rem;
 }
 
 .about-card p{
     width:100%;
     margin:15px 0 0;
+    color:#1F2937;
+    line-height:1.7;
+    font-size:1rem;
 }
 
 .info{
@@ -209,25 +213,20 @@ img{
 }
 
 .card-text{
-    text-align: center;
-    color: whitesmoke;
-    padding: 0 12px;
+    text-align:center;
+    color:white;
+    padding:0 20px;
+    line-height:1.6;
 }
 
 .card h3{
-    font-size:1.3rem;
+    font-size:1.4rem;
+    line-height:1.3;
 }
 
 .card p{
-    line-height: 1.6;
-}
-
-.card h3{
-    font-size:1.3rem;
-}
-
-.card p{
-    line-height: 1.6;
+    font-size:1rem;
+    line-height:1.6;
 }
 
 .learn-more{
@@ -254,6 +253,17 @@ img{
     width: 80%;
     margin: auto;
     margin-top: 40px;
+}
+
+.two-column p{
+    color:#E5E7EB;
+    line-height:1.7;
+    font-size:1.05rem;
+}
+
+.two-column h2{
+    color:#F8FAFC;
+    font-size:2.2rem;
 }
 
 .build-section{
@@ -413,15 +423,16 @@ img{
 
 .intro h2{
     font-size:2.2rem;
-    color:rgb(47,140,1);
+    color:#1F4E79;
+    margin-bottom:15px;
 }
 
 .intro p{
     width:75%;
     margin:20px auto;
-    color:#555;
-    line-height:1.7;
-    font-size:1.05rem;
+    color:#1F2937;
+    line-height:1.8;
+    font-size:1.1rem;
 }
 
 footer{
